@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-scroll";
+import pdf from './myresume.pdf'
 
 const Home = () => {
   return (
@@ -10,7 +11,7 @@ const Home = () => {
           <h2 className="text-6xl sm:text-8xl font-bold text-white">Prasad Bhor</h2>
           <div className="flex mt-4">
             <a
-              href="./_dummy (1).pdf"
+              href={pdf}
               download="Prasad_Bhor_CV.pdf"
               className="mr-4 bg-purple-700 hover:bg-white text-black hover:scale-110 duration-300 font-bold py-2 px-4"
             >
