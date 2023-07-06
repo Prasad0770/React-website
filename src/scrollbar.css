@@ -1,0 +1,50 @@
+/* Default scrollbar styles */
+::-webkit-scrollbar {
+  width: 10px;
+  background-color: #181818;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(147 51 234);
+  border-radius: 5px;
+}
+
+/* Responsive scrollbar styles for screens below 768px width */
+@media (max-width: 767px) {
+  ::-webkit-scrollbar {
+    width: 5px;
+    background-color: #181818;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: rgb(147 51 234);
+    border-radius: 2px;
+  }
+}
+
+/* Responsive scrollbar styles for screens between 768px and 1023px width */
+@media (min-width: 768px) and (max-width: 1023px) {
+  ::-webkit-scrollbar {
+    width: 7px;
+    background-color: #181818 ;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: rgb(147 51 234);
+    border-radius: 3px;
+  }
+}
+
+/* Responsive scrollbar styles for screens above 1023px width */
+@media (min-width: 1024px) {
+  ::-webkit-scrollbar {
+    width: 5px;
+    height: 6px; /* Adjust the height value as desired */
+    background-color: #181818;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: rgb(147 51 234);
+    border-radius: 5px;
+  }
+}
