@@ -1,9 +1,11 @@
 import React from "react";
 import { RiGithubFill, RiInstagramLine, RiLinkedinBoxFill } from "react-icons/ri";
 
+
 const Contact = () => {
   return (
-    <div name="contact" className="w-full h-screen bg-purple-600">
+    <div name="contact" className="w-full h-screen bg-blue-300">
+     
       <div className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full">
         <div className="pb-8">
           <p className="text-4xl font-bold">Contact</p>
@@ -38,7 +40,7 @@ const Contact = () => {
             ></textarea>
 
             <div className="flex items-center">
-              <button className="text-purple-500 bg-black px-6 py-3 my-8 mr-2 flex items-center rounded-md hover:scale-110 duration-300">
+              <button className="text-blue-300 bg-black px-6 py-3 my-8 mr-2 flex items-center rounded-md hover:scale-110 duration-300">
                 Let's talk
               </button>
               <a href="https://instagram.com/_prasad.draft?igshid=MzRlODBiNWFlZA==" target="_blank" rel="noreferrer"><RiInstagramLine className="text-5xl" /></a>

@@ -5,7 +5,7 @@
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: rgb(147 51 234);
+  background-color: rgb(147 197 253);
   border-radius: 5px;
 }
 
@@ -17,7 +17,7 @@
   }
 
   ::-webkit-scrollbar-thumb {
-    background-color: rgb(147 51 234);
+    background-color: rgb(147 197 253);
     border-radius: 2px;
   }
 }
@@ -30,7 +30,7 @@
   }
 
   ::-webkit-scrollbar-thumb {
-    background-color: rgb(147 51 234);
+    background-color: rgb(147 197 253);
     border-radius: 3px;
   }
 }
@@ -44,7 +44,7 @@
   }
 
   ::-webkit-scrollbar-thumb {
-    background-color: rgb(147 51 234);
+    background-color: rgb(147 197 253);
     border-radius: 5px;
   }
 }

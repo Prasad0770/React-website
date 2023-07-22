@@ -6,6 +6,7 @@ import python from './python2.png';
 import rect from './react.png';
 import githb from './github.png';
 
+
 const Experience = () => {
   const tech = [
     {
@@ -48,6 +49,7 @@ const Experience = () => {
 
   return (
     <div name="experience" className="w-full h-screen">
+      
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
         <div>
           <p className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-center sm:text-left">Experience</p>
