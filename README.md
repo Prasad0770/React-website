@@ -4,4 +4,4 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 # You can visit my Portfolio Website through the link given below
 
-https://shorturl.at/nrtI3
+https://venerable-tulumba-7b7b3f.netlify.app/
